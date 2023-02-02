@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portafolio Leonardo Cifuentes</title>
   </head>
   <body>
@@ -22,32 +25,75 @@
     </header>
     <div class="bg-secondary">
 
-
-    <section class="contenido-portafolio bg-secondary text-center">
-      <p>
-        Bienvenido al portafolio de Leonardo Cifuentes S. <br> Aquí podrás ver algunos trabajos desarrollados en la Carrera de Desarrollo Fullstack en Desafío Latam
-      </p>
+      <section id="Acerca-de-mi" class="container text-center my-5">
+        <h2 class="display-3 fw-bold my-4">Acerca de...</h2>
+        <h1><span class="badge bg-dark">Leo</span></h1>
+  
+        <p class="my-4">
+          Titulado en Composición, Mención Interpretación en Universidad UNIACC,
+          con estudios de Antropología en la Universidad de Chile y numerosos
+          Diplomados y Seminarios asociados a Publicidad y Emprendimiento.
+        </p>
+  
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <i class="fa-solid fa-music fa-3x my-3"></i>
+            <h3 class="my-3 fw-bold">Músico Profesional</h3>
+            <p class="my-3">
+              Compositor, productor y multi-instrumentista. Trabajos al servicio
+              de medios como Televisión, virales de Internet, emprendimientos y
+              publicidad en general. Multi-instrumentista con más de una decena de
+              discos grabados y productor de música publicitaria y Singles
+              radiales.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <i class="fa-solid fa-chalkboard-user fa-3x my-3"></i>
+            <h3 class="my-3 fw-bold">Docencia</h3>
+            <p class="my-3">
+              Desde 2007 se desempeña como docente de Guitarra eléctrica y
+              acústica. A su vez, imparte clases de Teoría musical, Teclado,
+              Canto, Bajo, Ukelele, y Tecnología Musical de forma particular y/o
+              en Academia/Universidad/Instituto
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <i class="fa-solid fa-lightbulb fa-3x my-3"></i>
+            <h3 class="my-3 fw-bold">Publicidad</h3>
+            <p class="my-3">
+              Con trabajo en agencias de publicidad y más tarde de forma
+              independiente como Estratega Digital al servicio de Emprendimientos
+              Pequeños, Leonardo se ha formado activamente en materias de
+              Marketing Digital, Planning y Publicidad 360.
+            </p>
+          </div>
+        </div>
+      </section>
+    
+      <section class="contenido-portafolio bg-secondary text-center">
+      <h4><strong>A continuación podrás ver algunos trabajos desarrollados en la Carrera de Desarrollo Fullstack en Desafío Latam:</strong>
+      </h4>
     </section>
 
     <div class="container my-4 border-info">
         <div class="row justify-content-center align-items-center">
         <div class="col-12 col-md-4 p-4">
           <div class="card card-width">
-            <img src="./assets/imgs/carrusel_1.png" class="card-img-top" alt="Sitio de Cupones">
+            <a href="https://leocifuentescl.github.io/proyectoCV/" target="_blank" rel="noopener"><img src="./assets/imgs/cv_leo.png" class="card-img-top" alt="CV online"></a>
             <div class="card-body">
-              <h5 class="card-title">Sitio de cupones</h5>
-              <h7 class="card-text text-secondary">Elaboración con Bootstrap</h7>
+              <h5 class="card-title">CV online</h5>
+              <h7 class="card-text text-secondary">Elaboración con HTML</h7>
               <hr>
               <div class="d-flex justify-content-end gap-3">
                 <p class="text-secondary">Realizado en módulo 1 Desafío Latam</p>
-                <h5 class="text-success">Nota: 10/10</h5>
+                <h5 class="text-success">Nota: 9.0/10</h5>
                </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-4 p-4">
           <div class="card card-width">
-            <img src="./assets/imgs/carrusel_2.png" class="card-img-top" alt="Sitio de contenido personal">
+            <a href="https://leocifuentescl.github.io/landingpage/" target="_blank" rel="noopener"><img src="./assets/imgs/discografia.png" class="card-img-top" alt="Sitio de contenido personal"></a>
             <div class="card-body">
               <h5 class="card-title">Sitio de mi banda</h5>
               <h7 class="card-text text-secondary">Elaborado con HTML y CSS</h7>
@@ -61,7 +107,7 @@
         </div>
         <div class="col-12 col-md-4 p-4">
           <div class="card card-width">
-            <img src="./assets/imgs/carrusel_3.png" class="card-img-top" alt="Sitio de Iguana">
+            <a href="https://leocifuentescl.github.io/iguanapage/" target="_blank" rel="noopener"><img src="./assets/imgs/iguana.png" class="card-img-top" alt="Sitio de Iguana"></a>
             <div class="card-body">
               <h5 class="card-title">Sitio "Iguana Page"</h5>
               <h7 class="card-text text-secondary">Elaborado con HTML y CSS</h7><br>
@@ -74,32 +120,44 @@
           </div>
         </div>
         </div>
-
-        <h4>Revisa los ejemplos en grande aquí:</h4>
-
-        <nav aria-label="Page navigation example">
-            <ul class="pagination">
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li>
-              <li class="page-item"><a class="page-link" href="./assets/imgs/carrusel_1.png">1</a></li>
-              <li class="page-item"><a class="page-link" href="./assets/imgs/carrusel_2.png">2</a></li>
-              <li class="page-item"><a class="page-link" href="./assets/imgs/carrusel_3.png">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
+        <div class="container my-4 border-info">
+          <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-4 p-4">
+            <div class="card card-width">
+              <a href="https://leocifuentescl.github.io/maquetacuppon/" target="_blank" rel="noopener"><img src="./assets/imgs/cuppon.png" class="card-img-top" alt="Sitio de Cupones"></a>
+              <div class="card-body">
+                <h5 class="card-title">Sitio de cupones</h5>
+                <h7 class="card-text text-secondary">Elaboración con Bootstrap</h7>
+                <hr>
+                <div class="d-flex justify-content-end gap-3">
+                  <p class="text-secondary">Realizado en módulo 1 Desafío Latam</p>
+                  <h5 class="text-success">Nota: 10/10</h5>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 p-4">
+            <div class="card card-width">
+              <a href="https://leocifuentescl.github.io/ejerciciofork" target="_blank" rel="noopener"><img src="./assets/imgs/ejerciciofork.png" class="card-img-top" alt="Sitio ejercicio Fork"></a>
+              <div class="card-body">
+                <h5 class="card-title">Sitio Ejercicio Fork</h5>
+                <h7 class="card-text text-secondary">Uso de Fork en GithHub</h7>
+                <hr>
+                <div class="d-flex justify-content-end gap-3">
+                  <p class="text-secondary">Realizado en módulo 1 Desafío Latam</p>
+                  <h5 class="text-success">Nota: 10/10</h5>
+                 </div>
+              </div>
+            </div>
+          </div>
         </div>
   </body>
 </html>
 
 <footer>
     <div class="footer bg-dark">
+    <h5 class="text-center text-light"><strong>Contacto: </strong><a href="mailto:leonardocifuent@gmail.com" rel="noopener">leonardocifuent@gmail.com</a></h5>
+    <h5 class="text-center text-light"><strong>Teléfono: </strong><a href="https://wa.me/56988896470" target="_blank" rel="noopener">+569 8889 6470</a></h5>
     <h6 class="text-center text-light">LeocifuentesCL - Todos los derechos reservados. ©2022</h6>
-    </div>  
+  </div>
 </footer>
